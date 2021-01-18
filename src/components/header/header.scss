@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    padding: 0 50px;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, .5);
+    align-items: center;
+    height: 60px;
+    &__link {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        color: #fff;
+        margin-right: 40px;
+        img {
+            width: 20px;
+            margin-right: 10px;
+        }
+    }
+}
